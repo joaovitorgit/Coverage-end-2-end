@@ -1,0 +1,28 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel *.test.js",
+    "test:cov": "npx nyc mocha --parallel *.test.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovitorgit/Coverage-end-2-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovitorgit/Coverage-end-2-end/issues"
+  },
+  "homepage": "https://github.com/joaovitorgit/Coverage-end-2-end#readme"
+}
